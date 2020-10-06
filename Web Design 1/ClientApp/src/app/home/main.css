@@ -1,0 +1,90 @@
+
+/* Main styles
+--------------------------------*/
+.main {
+  background-image: url("/assets/img/rubber-texture-BG.jpg");
+  background-size: cover;
+  background-position: top;
+
+  /*display: inline-block;*/
+  /*position: relative;*/
+}
+
+.main-content{
+  display: inline-block;
+}
+
+#profile-example {
+  float:left;
+  padding:20px;
+  margin: 20px;
+}
+
+#book-session-btn{
+  line-height: 80px;
+}
+
+/* Sessions styles
+--------------------------------*/
+.sessions {
+  background-image: url("/assets/img/dumbell-BG.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+.sessions > h3 {
+  text-align: center;
+  font-weight:bold
+}
+
+.activities {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.actvity {
+  width: 250px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.actvity h3{
+  text-align: center;
+}
+
+.actvity > a {
+  margin: 0 auto;
+  width: 100%;
+  max-height: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+/* Responsive styles
+--------------------------------*/
+
+@media screen and (max-width: 767px) {
+
+  .main-content * {
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  #profile-example {
+    float: none;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #book-session-btn {
+    margin-bottom: 140px;
+  }
+
+  .activities {
+    display: block;
+  }
+}
