@@ -47,7 +47,7 @@ h3 {
   font-weight: 400;
 }
 
-footer ul {
+footer > div ul {
   list-style-type: none;
   display: inline-block;
 }
@@ -59,7 +59,7 @@ footer ul {
 }
 
 .footer-links li{
-  display: inline;
+  display: block;
   padding:6px;
 }
 
